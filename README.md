@@ -25,4 +25,5 @@ TERIMAKASIH UNTUK
 *   [VICKY](https://t.me/vckyouubitch) - ⚡Geez-Userbot⚡
 *   [KOALA](https://t.me/manusiarakitann) - KAMPANG BOT
 *   [TEAMULTROID](https://github.com/TeamUltroid) - ULTROID
+*   [UMATREBAH](https://t.me/ademaunanyabang) - KAUM-REBAH
 *    DAN MASIH BANYAK LAGI TOT
