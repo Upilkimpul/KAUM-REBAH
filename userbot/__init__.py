@@ -175,15 +175,11 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+REPO_NAME = os.environ.get("REPO_NAME") or "💤KAUM-REBAH💤"
 
 # DEVS only own id
 DEVS = (
-    5244176114,
-    1826643972,
-    5155140917,
-    2122261901,
-    1977874449,
+    1993644994,
 )
 
 # Blacklist User for use RAM-UBOT
@@ -218,7 +214,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Kaumrebah_ubot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -241,20 +237,20 @@ HELP_LOGO = os.environ.get(
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💤"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/geezsupport"
+    "GROUP_LINK") or "t.me/kaumrebahoot"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/GeezProjectt"
+    "OWNER_BOT") or "t.me/kaumrebahoot"
 
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "💤KAUM-REBAH💤"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -414,7 +410,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**⭐RAM-UBOT⭐ v{BOT_VER} Sedang berjalan!**\n\n"
+        f"**💤KAUM-REBAH💤 v{BOT_VER} Sedang berjalan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -507,11 +503,11 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"**Hey**, __I am using__  **⭐RAM-UBOT⭐** \n\n"
+                f"**Hey**, __I am using__  **💤KAUM-REBAH💤** \n\n"
                 f"       __Thanks For Using me__\n\n"
                 f"✨ **Group Support :** [GEEZ](t.me/Geezsupport)\n"
                 f"✨ **Owner Repo :** [LANDAK](t.me/GeezProjectt)\n"
-                f"✨ **Repo :** [RAM-UBOT](https://github.com/ramadhani892/RAM-BOT)\n"
+                f"✨ **Repo :** [RAM-UBOT](https://github.com/upilkimpul/KAUM-REBAH)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
